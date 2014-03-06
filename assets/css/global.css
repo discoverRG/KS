@@ -1,0 +1,143 @@
+/* Global Styles for the
+/* Karen Stevens Website.
+/* Coded with love by
+/* Randy Greene of RG Creative
+/* http://discoverRG.com
+/* March 2014
+
+
+/* GENERAL RESETS */
+body {
+	background: url('../img/ks_bg.jpg') no-repeat top right;
+	background-size: cover;
+}
+p small {
+	color: #ccc;
+}
+.btn.btn-small  {
+	color: #ccc;
+	background: none;
+	padding: 0;
+}
+.mainBody {
+	clear: both;
+	margin: 300px auto 150px auto;
+}
+#join {
+	float: right;
+	margin: -15px 60px 0 0;
+}
+
+/* NAV AREA */
+.navbar {
+	margin-top: 15px;
+	background: url('../img/nav-bg_1x91.png') repeat-x;
+	height: 91px;
+}
+#saba-logo {
+	float:left;
+	margin-left: 35px;
+}
+#ks-logo {
+	float: right;
+	margin-right: 35px;
+	max-width: 90%;
+}
+
+/* SLIDER */
+#slider {
+	float: left;
+	width: 94%;
+	padding: 10px;
+	background: #2f2f2f;
+	background:rgba(47,47,47,.85);
+	border-radius: 4px;
+	 -moz-box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#slider .carousel-inner {
+	max-width: 100%;
+}
+#slider .carousel-control {
+	opacity: 0;
+	font-size: 75px;
+	width: 10%;
+	transition: all .2s ease-in;
+}
+.carousel-control.left {
+	background: url('../ico/left-arrow.png') no-repeat 50% 50%;
+}
+.carousel-control.right {
+	background: url('../ico/right-arrow.png') no-repeat 50% 50%;
+}
+#slider:hover .carousel-control {
+	opacity: .65;
+}
+
+/* SOCIAL BUTTONS */
+#social-buttons {
+	float:right;
+	width:6%;
+}
+#social-buttons a {
+	display: block;
+	width: 75%;
+	margin-top: 15px;
+	float:right;
+	opacity: .85;
+}
+#social-buttons a:hover {
+	opacity: 1;
+}
+
+@media all and (max-width: 960px) {
+	.mainBody {
+		margin-top: 600px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.navbar {
+		height: auto;
+		background: #2f2f2f;
+		background: rgba(47,47,47,.85);
+	}
+	#saba-logo {
+		display: none;
+	}
+	#ks-logo {
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}
+	#join {
+		display: block;
+		float: none;
+		margin: 0;
+	}
+	#join img {
+		display: block;
+		margin: 25px auto;
+	}
+	#slider {
+		width: 100%;
+	}
+	#social-buttons {
+		width: 100%;
+	}
+	#social-buttons a {
+		width: 50%;
+		float: left;
+	}
+	#social-buttons a img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 400px) {
+	#ks-logo {
+		margin-top: 13px;
+	}
+}
