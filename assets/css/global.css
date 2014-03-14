@@ -165,7 +165,7 @@ p small {
 		display: none;
 	}
 	#ks-logo {
-		margin: 0 auto;
+		margin: 0 auto 25px auto;
 		display: block;
 		float: none;
 	}
@@ -180,6 +180,12 @@ p small {
 	}
 	#slider {
 		width: 100%;
+	}
+	#slider .carousel-caption {
+		top: 40px;
+		right: 10px;
+		left: 140px;
+		font-size: 15px;
 	}
 	#social-buttons {
 		width: 100%;
