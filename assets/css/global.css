@@ -8,8 +8,12 @@
 
 /* GENERAL RESETS */
 body {
-	background: url('../img/ks_bg.jpg') no-repeat top right;
+	background: #2f2f2f url('../img/ks_bg.jpg') no-repeat top right;
 	background-size: cover;
+	border-top: solid 10px #2f2f2f;
+	border-bottom: solid 10px #2f2f2f;
+	border-top: solid 10px rgba(47,47,47,.85);
+	border-bottom: solid 10px rgba(47,47,47,.85);
 }
 p small {
 	color: #ccc;
@@ -21,7 +25,7 @@ p small {
 }
 .mainBody {
 	clear: both;
-	margin: 300px auto 150px auto;
+	margin: 320px auto 150px auto;
 }
 #join {
 	float: right;
@@ -31,7 +35,7 @@ p small {
 /* NAV AREA */
 .navbar {
 	margin-top: 15px;
-	background: url('../img/nav-bg_1x91.png') repeat-x;
+	background: url('../img/nav-bg_1x90.png') repeat-x;
 	height: 91px;
 }
 #saba-logo {
@@ -89,6 +93,9 @@ p small {
 }
 #social-buttons a:hover {
 	opacity: 1;
+}
+#social-buttons a img {
+	max-width: 100%;
 }
 
 @media all and (max-width: 960px) {
