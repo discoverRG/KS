@@ -34,7 +34,7 @@ p small {
 
 /* NAV AREA */
 .navbar {
-	margin-top: 15px;
+	margin-top: 0;
 	background: url('../img/nav-bg_1x90.png') repeat-x;
 	height: 91px;
 }
