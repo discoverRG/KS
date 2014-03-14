@@ -63,6 +63,46 @@ p small {
 #slider .carousel-inner {
 	max-width: 100%;
 }
+#slider .carousel-caption {
+	float: right;
+	padding: 0;
+	top: 50px;
+	right: 20px;
+	bottom: 0;
+	left: 200px;
+}
+#slider .yt-video .carousel-caption {
+	display: block;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#slider .yt-video .carousel-caption a {
+	background: url('../ico/play-btn.png') no-repeat center center;
+	display: block;
+	height: 100%;
+	width: 100%;
+	transition: all .2s ease-out;
+}
+#slider .yt-video .carousel-caption a:hover {
+	background-image: url('../ico/play-btn-hover.png');
+}
+#questions-btn {
+	width: 48%;
+	float: left;
+}
+#get-started-btn {
+	width: 48%;
+	float: right;
+}
+#questions-btn img, #get-started-btn img {
+	max-width: 100%;
+}
 #slider .carousel-control {
 	opacity: 0;
 	font-size: 75px;
